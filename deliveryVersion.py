@@ -1,5 +1,6 @@
 from search import *
 
+#BUG: FROM THE MOOSHAK REPORT THE BUG IS IN THIS FUNCTION
 def board_find_groups(board):
 	numLines = len(board)
 	numColumns = len(board[0])
