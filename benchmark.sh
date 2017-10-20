@@ -193,7 +193,7 @@ function test_dir {
 	fi
 
 	# Run tests
-	for i $(seq 5)
+	for i in $(seq 5); do
 		for test_input in $1/*.in; do
 			test_single $test_input
 			echo "__________________________________"
