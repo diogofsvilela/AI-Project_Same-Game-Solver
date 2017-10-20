@@ -51,11 +51,7 @@ class same_game(Problem):
 
 	# Tests if the cell is filled or not
 	def goal_test(self, state):
-		for line in state.get_board():
-			for c in line:
-				if color(c):
-					return False
-		return True
+		return state.get_board()[-1][0] == 0
 
 	def h(self, node):
 		return len(board_find_groups(node.state.get_board()))
