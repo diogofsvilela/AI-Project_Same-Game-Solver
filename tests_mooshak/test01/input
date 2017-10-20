@@ -1,0 +1,1 @@
+print(xx_recursive_sort(board_find_groups([[1,2,1,2,1],[2,1,2,1,2],[1,2,1,2,1],[2,1,2,1,2]])))
