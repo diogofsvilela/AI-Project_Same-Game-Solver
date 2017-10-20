@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+  File "/Users/diogoredin/Documents/Universidade/5_semestre/IA/IA_project/src/search.py", line 1311, in compare_searchers
+    table = [[name(s)] + [do(s, p) for p in problems] for s in searchers]
+  File "/Users/diogoredin/Documents/Universidade/5_semestre/IA/IA_project/src/search.py", line 1311, in <listcomp>
+    table = [[name(s)] + [do(s, p) for p in problems] for s in searchers]
+  File "/Users/diogoredin/Documents/Universidade/5_semestre/IA/IA_project/src/search.py", line 1311, in <listcomp>
+    table = [[name(s)] + [do(s, p) for p in problems] for s in searchers]
+  File "/Users/diogoredin/Documents/Universidade/5_semestre/IA/IA_project/src/search.py", line 1309, in do
+    searcher(p)
+  File "/Users/diogoredin/Documents/Universidade/5_semestre/IA/IA_project/src/search.py", line 217, in depth_first_tree_search
+    return tree_search(problem, Stack())
+  File "/Users/diogoredin/Documents/Universidade/5_semestre/IA/IA_project/src/search.py", line 189, in tree_search
+    frontier.extend(node.expand(problem))
+  File "/Users/diogoredin/Documents/Universidade/5_semestre/IA/IA_project/src/search.py", line 106, in expand
+    for action in problem.actions(self.state)]
+  File "/Users/diogoredin/Documents/Universidade/5_semestre/IA/IA_project/src/search.py", line 1276, in actions
+    return self.problem.actions(state)
+  File "/Users/diogoredin/Documents/Universidade/5_semestre/IA/IA_project/src/same_game.py", line 46, in actions
+    board_find_groups(state.get_board())))
+  File "/Users/diogoredin/Documents/Universidade/5_semestre/IA/IA_project/src/same_game.py", line 45, in <lambda>
+    actions = list(filter(lambda x: len(x) > 1,
+KeyboardInterrupt

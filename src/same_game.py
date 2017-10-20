@@ -3,7 +3,7 @@ from search import *
 ##############################################################
 #	
 #	SAME GAME https://goo.gl/ta5CNq
-#	IST IA 17/18 - GROUP TG018 DIOGO VILELA 84710, DIOGO REDIN 84711
+#	IST IA 17/18 - GROUP TG028 DIOGO VILELA 84710, DIOGO REDIN 84711
 #
 #	SameGame is played on a board with colored pieces randomly placed. 
 # 	By selecting a group pieces of the same color,they can be removed 
